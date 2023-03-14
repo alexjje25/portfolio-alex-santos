@@ -20,19 +20,19 @@ const People = () => {
       className={`yPaddings innerWidth ${css.container}`}>
 
 
-        <div className={`flexCenter ${css.heading}`}>
+        {/* <div className={`flexCenter ${css.heading}`}>
           <span className="primaryText">People talk about us</span>
           <p style={{ marginTop: "2rem" }}>
             I got a job that was in accordance with the salary and field of work
           </p>
           <p>The process of submitting an appilication was quite cosy</p>
-        </div>
+        </div> */}
 
 
 
         <div className={`yPaddings ${css.comments}`}>
           {/* to use slider , we have to inlcude css in index.html head */}
-          <Slider {...sliderSettings} className={css.slider}>
+          {/* <Slider {...sliderSettings} className={css.slider}>
             {comments.map((comment, i) => {
               return (
                 <div className={`flexCenter ${css.comment}`}>
@@ -46,7 +46,7 @@ const People = () => {
                 </div>
               );
             })}
-          </Slider>
+          </Slider> */}
         </div>
 
 

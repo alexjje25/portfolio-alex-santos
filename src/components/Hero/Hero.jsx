@@ -19,9 +19,9 @@ const Hero = () => {
             I'm Alex Santos.
           </motion.span>
           <motion.span className="secondaryText"variants={fadeIn("left", "tween", 0.4, 1)}>
-            I design beautiful simple
+          Develop Beautiful and objective 
             <br />
-            things, And I love what i do{" "}
+            interfaces,  I love what I do.{" "}
           </motion.span>
         </div>
 

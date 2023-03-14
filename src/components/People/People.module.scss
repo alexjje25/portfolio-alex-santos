@@ -1,7 +1,9 @@
 @import '../../styles/contants.scss';
 
 .wrapper {
+    display: none;
     .container {
+        
         .heading {
             flex-direction: column;
            p{
